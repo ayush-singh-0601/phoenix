@@ -1,5 +1,29 @@
 # Changelog
 
+## [22.1.0](https://github.com/Arize-ai/phoenix/compare/arize-phoenix-v22.0.1...arize-phoenix-v22.1.0) (2026-11-24)
+
+
+### Features
+
+* **cli:** add px project create command ([#17052](https://github.com/Arize-ai/phoenix/issues/17052)) ([d3eafcb](https://github.com/Arize-ai/phoenix/commit/d3eafcb16f9100a10847fd8cabfdc1a99f251650)), closes [#12031](https://github.com/Arize-ai/phoenix/issues/12031)
+* **cli:** add px setup doctor to diagnose connection problems ([#18069](https://github.com/Arize-ai/phoenix/issues/18069)) ([697aaca](https://github.com/Arize-ai/phoenix/commit/697aaca4c8efd573eedbb3d6dc6b79c541bf45e9))
+* **datasets:** permanently delete dataset examples ([#17968](https://github.com/Arize-ai/phoenix/issues/17968)) ([c822820](https://github.com/Arize-ai/phoenix/commit/c82282015373353bd9813dc3447094308e628e29))
+* make playground task timeout configurable via PHOENIX_PLAYGROUND_TIMEOUT_SECONDS ([#16545](https://github.com/Arize-ai/phoenix/issues/16545)) ([d54adfb](https://github.com/Arize-ai/phoenix/commit/d54adfba1a1cec77a1bed2f181d0ba3f72feb0bf))
+
+
+### Bug Fixes
+
+* **factory:** deploy Railway previews from Docker Hub ([#18106](https://github.com/Arize-ai/phoenix/issues/18106)) ([99c5e99](https://github.com/Arize-ai/phoenix/commit/99c5e99647753110d0cb94d0eba063775161dbbf))
+* **playground:** send replayed tool calls to AWS Bedrock as toolUse blocks ([#16433](https://github.com/Arize-ai/phoenix/issues/16433)) ([f7e0f9d](https://github.com/Arize-ai/phoenix/commit/f7e0f9d5555d30143d2553739abb523d941d0a84))
+* **playground:** sync built-in model prices and model lists ([#18134](https://github.com/Arize-ai/phoenix/issues/18134)) ([2a37210](https://github.com/Arize-ai/phoenix/commit/2a372100db49c3d91dfdc726651a5a3cee0c4e2e))
+* **playground:** tolerate null function in Anthropic tool call content ([#18158](https://github.com/Arize-ai/phoenix/issues/18158)) ([150398e](https://github.com/Arize-ai/phoenix/commit/150398edff6c703924c8baceb6d8c919bfcefc80))
+* **prompts:** return 409/Conflict when deleting prompt used by an LLM evaluator ([#18184](https://github.com/Arize-ai/phoenix/issues/18184)) ([2639a86](https://github.com/Arize-ai/phoenix/commit/2639a8608ef4094d730def6cc723a0153b75e003))
+
+
+### Documentation
+
+* tighten community PR and UI evidence rules in contributing guide ([#18142](https://github.com/Arize-ai/phoenix/issues/18142)) ([940e11a](https://github.com/Arize-ai/phoenix/commit/940e11a3173962d933ea9772ebbaafa0adb6c0d0))
+
 ## [22.0.1](https://github.com/Arize-ai/phoenix/compare/arize-phoenix-v22.0.0...arize-phoenix-v22.0.1) (2026-11-21)
 
 
